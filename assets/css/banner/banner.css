@@ -1,0 +1,5 @@
+.banner {
+  position: relative;
+}
+
+/* O parâmetro position: absolute do banner-titulo estava sendo absoluto em relação a página. Sendo assim, usamos o parâmetro position: relative na classe pai, banner, para que seus filhos sejam posicionados de maneira relativa a ele. O último ajuste que faremos é a adição do parâmetro height: 100vh, onde vh significa viewport height, que é o tamanho da tela do navegador. */
